@@ -11,6 +11,9 @@ Duration:1st June to 13th July 2024
 Mentor: Muzammil
 
 Overview of the Project
+![Screenshot 2024-06-07 234320](https://github.com/Learner147/CODETECH-Task1/assets/124482454/1cdbf1a5-b169-45e0-a796-bb84b1fc36a6)
+
+
 
 Project: Portfolio Website Redesign
 
