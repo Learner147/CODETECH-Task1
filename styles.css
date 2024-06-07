@@ -1,0 +1,390 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    /* Gradient background */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.5em;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007BFF;
+    /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+}
+
+#about-me {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+    /* Dark text color for readability */
+}
+
+#about-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0072ff;
+    /* Blue header color */
+}
+
+#about-me p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#about-me ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about-me ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    position: relative;
+    padding-left: 20px;
+}
+
+#about-me ul li::before {
+    content: '•';
+    color: #0072ff;
+    /* Blue bullet color */
+    position: absolute;
+    left: 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+#portfolio {
+    text-align: center;
+    /* Center-align the content */
+}
+
+#portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0072ff;
+    /* Blue header color */
+}
+
+
+#portfolio .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#portfolio .project {
+    width: 35%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#portfolio .project img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#portfolio .project:hover img {
+    transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+#contact {
+
+    text-align: center;
+    padding: 60px 20px;
+    color: black;
+    /* Adjust text color for better contrast */
+    position: relative;
+    /* For overlay purposes */
+    z-index: 1;
+    /* Ensure the section content is above the background */
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Optional: dark overlay for readability */
+    z-index: -1;
+    /* Place overlay behind the content */
+}
+
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    /* Ensure form is above overlay */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Optional: Change button color to blue */
+.btn {
+    background-color: #007BFF;
+    /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: scale(1.1);
+}
+
+/* Social Links Styles */
+.social-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    font-size: 32px;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Specific Icon Colors */
+.social-links a[href="https://www.linkedin.com/in/suraj-subba-063964276"] .fa-linkedin {
+    color: #0e76a8;
+}
+
+.social-links a[href="https://github.com/Learner147"] .fa-github {
+    color: #333;
+}
+
+.social-links a[href="https://www.instagram.com/__sui.0.2/"] .fa-instagram {
+    color: #e4405f;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a;
+    /* Dark grey color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        height: 70vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav.open ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .header-content h1,
+    .header-content p {
+        font-size: 1.5em;
+    }
+
+    #about .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img {
+        margin: 0 0 20px 0;
+    }
+
+    #portfolio .project {
+        width: 80%;
+    }
+}
+
+.project-description {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
+.btn {
+    background-color: #007BFF;
+    /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: scale(1.1);
+}

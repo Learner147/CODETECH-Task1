@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Hi, I'm Suraj Subba</h1>
+            <p>UI/UX DESIGNER</p>
+            <!-- <a href="#portfolio" class="btn">View My Works</a> -->
+        </div>
+    </header>
+    <section id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src=".\images\profile.png" alt="Profile Picture">
+            <p>I’m Suraj Subba, a UI/UX Designer with a keen eye for aesthetics and a passion for creating seamless user
+                experiences. Combining creativity with technical know-how, I strive to design interfaces that are both
+                beautiful and functional.</p>
+
+            <h3>Background</h3>
+            <p>With a background in Bachelor of Technology in CSE, I have developed a strong foundation in design
+                principles and user-centered design methodologies. My education and hands-on projects have honed my
+                skills in crafting intuitive and engaging digital experiences.</p>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li> Design Tools:</li>
+                    <li><i class="fas fa-blender"></i> Blender</li>
+                    <li><i class="fab fa-sketch"></i> Sketch</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+                <ul>
+                    <li> Web Development:</li>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+                <ul>
+                    <li> Design Systems:</li>
+                    <li><i class="fas fa-palette"></i> Material Design</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </div>
+
+
+            <h3>Experiences</h3>
+            <ul>
+                <li>UI/UX Intern at CODETECH IT SOLUTIONS : Currently working on Mobile App Wireframing, E-Commerce
+                    Website Redesign, Dashboard Design For Analytics Platform, User-Centre Design For Healthcare App,
+                    Interactive AR/VR Experience Design.</li>
+                <li>Freelance Designer: Designed a responsive e-commerce site for a local business, enhancing their
+                    online presence.</li>
+            </ul>
+
+            <h3>Design Philosophy</h3>
+            <p>My approach centers on empathy and usability. I conduct user research to understand pain points and
+                create prototypes that address real user needs. My goal is to bridge the gap between user intent and
+                digital interaction.</p>
+
+            <h3>Interests</h3>
+            <p>Passionate about digital illustration and animation, enthusiastic about emerging design trends and tools,
+                and committed to understanding user behavior through qualitative and quantitative methods.</p>
+
+            <h3>Goals</h3>
+            <p>I aim to create user-centric designs that not only meet business objectives but also provide delightful
+                user experiences.</p>
+            <p>My design philosophy centers on creating intuitive and engaging user interfaces that prioritize usability
+                and aesthetics. I believe that good design is not just about making things look beautiful but about
+                enhancing the overall user experience.</p>
+            <p>I aspire to contribute to a dynamic team where I can continue to learn and grow as a UI/UX designer and
+                software developer.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-content">
+            <!-- Repeat for each project -->
+            <div class="project">
+                <img src=".\images\img.png" alt="Project 1">
+                <h3>Mini Calculator</h3>
+                <button class="view-project-btn" onclick="toggleDescription('desc1')">View Description ▽</button>
+                <div class="project-description" id="desc1">
+                    <p>The Mini Calculator is a simple yet functional calculator application developed using Python.
+                        This project demonstrates the basic principles of arithmetic operations and provides a
+                        user-friendly interface to perform calculations.</p>
+
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><strong>Basic Arithmetic Operations:</strong> The calculator supports addition, subtraction,
+                            multiplication, and division.</li>
+                        <li><strong>User Input:</strong> Users can input two numbers and select the desired operation.
+                        </li>
+                        <li><strong>Error Handling:</strong> The calculator includes error handling for division by zero
+                            and invalid inputs.</li>
+                    </ul>
+
+                    <h4>Technologies Used:</h4>
+                    <ul>
+                        <li><strong>Python: </strong> The core programming language used to develop the calculator.
+                        </li>
+                        <li><strong>Tkinter:</strong> A standard Python library used to create the graphical user
+                            interface (GUI).</li>
+                    </ul>
+
+                    <h4>Project Objectives:</h4>
+                    <ul>
+                        <li>To practice and enhance Python programming skills.</li>
+                        <li>To understand and implement a basic GUI using Tkinter.</li>
+                        <li>To develop problem-solving skills by handling different arithmetic operations and
+                            exceptions.</li>
+                    </ul>
+                    <h4>How It Works:</h4>
+                    <ol>
+                        <li><strong>User Interface:</strong> The calculator has a simple GUI with buttons for digits
+                            (0-9), operations (+, -, *, /), and a display area to show the input and results.</li>
+                        <li><strong>User Interaction:</strong> Users enter numbers and select operations by clicking the
+                            corresponding buttons.</li>
+                        <li><strong>Calculation:</strong> The program processes the input and performs the selected
+                            operation.</li>
+                        <li><strong>Result Display:</strong> The result is displayed in the designated area of the GUI.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="project">
+                <img src=".\images\tu.png" alt="Project 2">
+                <h3>Hostel Information System</h3>
+                <button class="view-project-btn" onclick="toggleDescription('desc2')">View Description ▽</button>
+                <div class="project-description" id="desc2">
+                    <p>The Hostel Information System is a comprehensive application designed to manage and streamline
+                        hostel operations. It provides functionalities to handle student information, room allocation,
+                        and other administrative tasks efficiently.</p>
+
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><strong>Student Management:</strong> Manage student details including personal information,
+                            room assignments, and fee status.</li>
+                        <li><strong>Room Allocation:</strong> Allocate and track room assignments for students, ensuring
+                            optimal utilization of hostel space.</li>
+                        <li><strong>Reports:</strong> Generate detailed reports on student occupancy,
+                            and other administrative data.</li>
+                    </ul>
+
+                    <h4>Technologies Used:</h4>
+                    <ul>
+                        <li><strong>PHP:</strong> The server-side scripting language used for the backend logic.</li>
+                        <li><strong>MySQL:</strong> The relational database management system used for storing data.
+                        </li>
+                        <li><strong>HTML, CSS, JavaScript:</strong> Technologies used to build the frontend interface.
+                        </li>
+
+                    </ul>
+
+                    <h4>Project Objectives:</h4>
+                    <ul>
+                        <li>To develop a robust system for managing hostel operations.</li>
+                        <li>To enhance PHP and MySQL development skills.</li>
+                        <li>To understand and implement database management using MySQL.</li>
+                    </ul>
+
+                    <h4>How It Works:</h4>
+                    <ol>
+                        <li><strong>Admin Interface:</strong> Administrators can log in to the system to manage student
+                            records, room allocations, and fees.</li>
+                        <li><strong>Student Registration:</strong> Students are registered in the system with their
+                            personal details and assigned rooms.</li>
+                        <li><strong>Room Allocation:</strong> The system allocates rooms based on availability and
+                            maintains a record of room assignments.</li>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="project">
+                <img src=".\images\book.png" alt="Project 3">
+                <h3>BookHaven</h3>
+                <button class="view-project-btn" onclick="toggleDescription('desc3')">View Description ▽</button>
+                <div class="project-description" id="desc3">
+                    <p>
+                    <p>BookHaven is an online platform designed for buying used books. This system focuses on the niche
+                        market of used books, providing a personalized user experience while adhering to industry
+                        standards.</p>
+
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><strong>User Registration and Authentication:</strong> Secure user accounts for buying
+                            books.</li>
+                        <li><strong>Book Browsing and Searching:</strong> Browse and search books by genre, author, or
+                            category</li>
+                        <li><strong>Shopping Cart Functionality:</strong> Easily add books to the cart and make
+                            purchases.</li>
+                        <li><strong>Order Management:</strong> Track orders and view order history.</li>
+                        <li><strong>Administrative Tools:</strong> Admins can manage books, users, and orders to ensure
+                            smooth operation of the platform.</li>
+                    </ul>
+
+                    <h4>Technologies Used:</h4>
+                    <ul>
+                        <li><strong>PHP:</strong> Server-side scripting language used for backend development.</li>
+                        <li><strong>MySQL:</strong> Relational database management system for storing user and book
+                            data.</li>
+                        <li><strong>HTML, CSS, JavaScript:</strong> Technologies used to build the frontend interface.
+                        </li>
+                    </ul>
+
+                    <h4>Project Objectives:</h4>
+                    <ul>
+                        <li>To create an efficient system for buying and selling used books online.</li>
+                        <li>To enhance PHP and MySQL development skills.</li>
+                        <li>To develop an admin panel for managing platform content,user account and order tracking
+                            functionalities.</li>
+                    </ul>
+                    <h4>How It Works:</h4>
+                    <ol>
+                        <li><strong>User Interface:</strong> Users can browse and search for books through an intuitive
+                            interface.</li>
+                        <li><strong>User Registration:</strong> Users sign up and log in to access additional features
+                            like searching books and making purchases.</li>
+                        <li><strong>Shopping Cart:</strong> Users can add books to their cart and proceed to checkout
+                            for purchase.</li>
+                        <li><strong>Order Management:</strong> The system manages orders, updates stock status, and
+                            provides order tracking and history.</li>
+                        <li><strong>Admin Panel:</strong> Admins can add, edit, and delete book listings, manage user
+                            accounts, and oversee order processing.</li>
+                    </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src=".\images\j.png" alt="Project 4">
+                <h3>E-Commerce</h3>
+                <button class="view-project-btn" onclick="toggleDescription('desc4')">View Description ▽</button>
+                <div class="project-description" id="desc4">
+                    <p>
+                    <p>The Coffee E-commerce System is a web-based platform designed to sell a variety of coffee
+                        products online. This system provides a comprehensive solution for managing coffee products,
+                        handling user orders, and offering a seamless shopping experience.</p>
+
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><strong>User Registration and Authentication:</strong> Secure user accounts for shopping and
+                            order tracking.</li>
+                        <li><strong>Product Browsing and Searching:</strong> Browse and search coffee products by type,
+                            origin, or brand.</li>
+                        <li><strong>Product Listing and Inventory Management:</strong> Admins can manage product
+                            listings and inventory levels.</li>
+                        <li><strong>Shopping Cart Functionality:</strong> Easily add products to the cart and manage
+                            purchases.</li>
+                        <li><strong>Order Management:</strong> Track orders, process payments, and view order history.
+                        </li>
+                        <li><strong>Administrative Tools:</strong> Admins can manage products, users, and orders to
+                            ensure smooth operation of the platform.</li>
+                    </ul>
+
+                    <h4>Technologies Used:</h4>
+                    <ul>
+                        <li><strong>PHP:</strong> Server-side scripting language used for backend development.</li>
+                        <li><strong>MySQL:</strong> Relational database management system for storing user and product
+                            data.</li>
+                        <li><strong>HTML, CSS, JavaScript:</strong> Technologies used to build the frontend interface.
+                        </li>
+                        <li><strong>Bootstrap:</strong> Front-end framework used for responsive design.</li>
+                    </ul>
+
+                    <h4>Project Objectives:</h4>
+                    <ul>
+                        <li>To create an efficient system for selling coffee products online.</li>
+                        <li>To enhance PHP and MySQL development skills.</li>
+
+                        <li>To develop an admin panel for managing platform content, user account and order tracking
+                            functionalities.</li>
+                    </ul>
+
+                    <h4>How It Works:</h4>
+                    <ol>
+                        <li><strong>User Interface:</strong> Users can browse and search for coffee products through an
+                            intuitive interface.</li>
+                        <li><strong>User Registration:</strong> Users sign up and log in to access additional features
+                            like managing orders and reviewing purchases.</li>
+                        <li><strong>Product Listing:</strong> Admins can list coffee products with details like type,
+                            origin, brand, and price.</li>
+                        <li><strong>Shopping Cart:</strong> Users can add products to their cart and proceed to checkout
+                            for purchase.</li>
+                        <li><strong>Order Management:</strong> The system manages orders, processes payments, and
+                            provides order tracking and history.</li>
+                        <li><strong>Admin Panel:</strong> Admins can add, edit, and delete product listings, manage user
+                            accounts, and oversee order processing.</li>
+                    </ol>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/suraj-subba-063964276" class="btn-social linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Learner147" class="btn-social github"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/__sui.0.2/" class="btn-social instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Suraj Subba. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
